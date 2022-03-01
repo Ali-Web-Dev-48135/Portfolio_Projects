@@ -1,0 +1,10 @@
+.temperatureContainer {
+    text-align: center;
+    margin: 0rem 2rem;
+    cursor: pointer;
+}
+
+.temperatureText {
+    font-size: 2rem;
+    color: orangered;
+}

@@ -1,0 +1,103 @@
+
+.card{
+    text-align: center;
+    margin: 0rem 2rem
+}
+
+.card p {
+    font-size: 2rem;
+    color: white;
+}
+
+.temperatureStyle {
+    text-align: center;
+    margin: 0rem 2rem;
+    cursor: pointer;
+}
+
+.temperatureStyle p {
+    color: white;
+    font-size: 2rem;
+}
+
+.temp p:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+.elementWrapper {
+    margin: 12rem auto 0rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9rem;
+    width: 80%;
+}
+
+/* Drop Down styles in wrapper */
+
+.elementWrapper .flexedColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    margin-top: 3rem;
+}
+.flexedColumn .drop-down {
+    margin: 1rem 0rem;
+}
+.flexedColumn .mainBtn {
+    margin: 3rem 0rem 0rem 0rem;
+}
+.drop-down label {
+    font-size: 1.8rem;
+    color: white;
+    text-shadow: 2px 2px 2px #333;
+    margin-right: 1rem;
+    vertical-align: middle;
+
+}
+
+.drop-down select {
+    width: 15rem;
+    height: 2.2rem;
+    font-size: 1.2rem;
+    color: #333;
+    border-radius: 0.5rem;
+    vertical-align: middle;
+    cursor: pointer;
+    background: lightblue;
+    border: none;
+}
+
+.drop-down select:hover {
+    border: 1px solid darkgreen;
+}
+
+/* button Styles in wrapper  */
+
+
+.mainBtn {
+    background-color: lightgreen;
+    border: 0.1rem solid white;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 14rem;
+    height: auto;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    color: darkgreen;
+    cursor: pointer;
+
+
+}
+
+.mainBtn:hover,
+.mainBtn:focus {
+    color: white;
+    background-color: darkgreen;
+    outline: none;
+}
+
