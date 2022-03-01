@@ -1,0 +1,12 @@
+.weatherContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border: darkgreen;
+    font-size: 3rem;
+    color: white;
+    font-weight:bold;
+    padding: 0.2rem;
+}
