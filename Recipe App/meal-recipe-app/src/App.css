@@ -1,0 +1,79 @@
+.App {
+  min-height: 100%;
+  background-image: linear-gradient(to top, #ce91bd 0%, #c5cfe0 100%);
+}
+
+.search-form {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  height: auto;
+  border: 0.1rem solid #333;
+  padding: 0.3rem;
+  margin: 0rem 0.2rem 0rem 0rem;
+  font-size: 1.2rem;
+}
+
+ button{
+  background-color: lightcoral;
+  padding: 0.3rem 0.2rem;
+  color: white;
+  font-size: 1.3rem;
+  margin: 0rem 0.5rem;
+  width: 7.5rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+
+
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  width: 20rem;
+  height: auto;
+  margin: 0rem auto; 
+  padding: 1.4rem 0rem;
+
+}
+
+
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* margin: 0rem auto; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  z-index: 10;
+  opacity: 100%;
+  background-color: #333;
+}
+
+.main-header__recipe {
+  text-align: center;
+  font-size: 1.5rem;
+}
+/* laptop styles media queries  */
+@media (min-width: 760px) {
+  .recipes {
+    border: 1px solid green;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+}
