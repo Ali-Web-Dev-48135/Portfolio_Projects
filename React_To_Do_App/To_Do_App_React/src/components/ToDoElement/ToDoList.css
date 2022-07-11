@@ -1,0 +1,41 @@
+.unorderedList
+{
+    border: 0.1rem solid black;
+    width: 55rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+
+.unorderedList li
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    font-size: 1.5rem;
+    border: 0.1rem solid black;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: lightcoral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 0.2rem;
+}
+
+.unorderedList input[type="checkbox"]
+{
+    width: 2rem;
+    height: 1rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+
+}
+
+
+.empty-list__header
+{
+    color: white;
+    font-size: 1.2rem;
+}

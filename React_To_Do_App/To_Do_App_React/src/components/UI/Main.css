@@ -1,0 +1,12 @@
+main
+{
+    border: 0.2rem solid white;
+    border-radius: 0.3rem;
+    width: 99%;
+    margin: 0.1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
