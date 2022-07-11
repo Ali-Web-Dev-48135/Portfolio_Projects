@@ -1,0 +1,160 @@
+
+
+.itemWrapper
+{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0.2rem;
+    align-items: center;
+    justify-items: center;
+    width: 99%;
+    margin: 1rem 0rem 0rem 0rem;
+    padding: 0.5rem 0.5rem;  
+}
+
+/* @media styles for itemWrapper */
+@media screen and (min-width: 460px){
+    .itemWrapper
+    {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 1.5rem;
+        align-items: center;
+        justify-items: center;
+        margin: 3rem 0rem 0rem 0rem;
+        animation: slidein 1s  ease-in-out 0.2s;
+        
+    }
+}
+
+
+ 
+.item-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+}
+ 
+
+/* @media styles for itemContaier */
+@media screen and (min-width: 460px){
+    .itemContainer
+    {
+        width: 100%;
+        border: 1px solid red;
+        border-radius: 0.2rem;
+        padding: 0.5rem 0.5rem;
+        text-align: center;
+        height: 20rem;
+    
+    }
+}
+
+
+
+.item-container > div
+{
+    
+    padding: 0.2rem 0.2rem;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.4rem 0.2rem;
+}  
+
+/* @media style for itemContainer > div*/
+@media screen and(min-width: 460px){
+    .itemContainer > div
+    {
+        padding: 0.2rem 0.2rem;
+        border: 0.1rem solid black;
+        width: 80%;
+        padding: 0.4rem 0.2rem;
+    }
+}
+    
+
+
+.item-container img
+{
+    margin: 0rem 0rem 0.5rem 0rem;
+    max-width: 60%;
+    
+}
+
+@media screen and (min-width: 460px){
+    .item-container img 
+    {
+        max-width: 80%;
+        height: 5rem;
+        object-fit: cover;
+    }
+}
+
+.item-container > div h4,
+.item-container > div h5,
+.item-container > div p
+{
+    margin: 0.2rem 0rem 0.2rem 0rem;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 460px){
+    .item-container > div h4,
+    .item-container > div h5,
+    .item-container > div p
+    {
+        margin: 0.8rem 0rem 0.2rem 0rem;
+        font-size: 1.3rem;
+        padding: 0.3rem 0.3rem;
+}      
+}
+
+
+.item-container > div button
+{
+    width: 100%;
+    cursor: pointer;
+    margin: 0.4rem 0rem 0rem 0rem;
+}
+
+@media screen and (min-width: 460px){
+    .item-container > div button{
+        width: 15rem;
+        height: 3rem;
+        margin: 0.7rem 0rem 0rem 0rem;
+        border-radius: 0.3rem;
+        outline: none;
+        font-size: 1.2rem;
+    }
+    .item-container > div button:hover
+    {
+        background-color: lightgreen;
+        border: none;
+        color: white;
+    }
+}
+
+@keyframes slidein {
+    from {
+      margin-top: 50%;
+      height: 0vw;
+      display: none;
+    }
+    to {
+      margin-top: 0%;
+      height: 100vh;
+      display: block;
+    }
+  }
+
+

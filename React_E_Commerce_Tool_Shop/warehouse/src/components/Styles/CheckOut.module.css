@@ -1,0 +1,102 @@
+
+body
+{
+    background-color: white;
+}  
+
+.checkout-item__container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    padding: 0rem 0.7rem;
+    width: 100%;
+}
+
+.checkout-item__header
+{
+    margin: 0.5rem 0rem 0.3rem 0rem;
+    font-size: 1.5rem;
+
+}
+
+@media screen and (min-width: 460px){
+    .checkout-item__header
+    {
+        margin: 3rem 0rem 0rem 0rem;
+        font-size: 2rem;
+    }
+}
+
+table
+{
+    border: 1px solid black;
+    width: 100%;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+@media screen and (min-width: 460px){
+    table 
+    {      
+        width: 40rem;
+        padding: 0.2rem 0.2rem;
+    }
+}
+
+table thead 
+{
+    
+    border: 0.1rem solid black;
+}
+
+table tr
+{
+    width: 100%;
+    border: 1px solid black;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 460px)
+{
+    table tr {
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+        text-align: center;
+        
+    } 
+    
+}
+
+table td
+{
+    border: 1px solid black;
+    padding: 0.2rem 0.2rem;
+    align-items: center;
+}
+
+@media screen and (min-width: 460px) {
+    table td
+    {
+        font-size: 1.5rem;
+        
+    }
+}
+
+table th
+{
+    border: 1px solid black;
+    padding: 0.3rem 0.3rem;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,132 @@
+
+.main-form
+{
+    margin: 2rem 0rem 0rem 0rem;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 99%;
+    background-color: rgb(202, 64, 64);
+    height: 15rem;
+    border-radius: 0.3rem;
+}
+
+
+@media screen and (min-width: 460px)
+{
+    .main-form
+    {
+        margin: 3rem 0rem 0rem 0rem;
+        width: 99%;
+        height: 20rem;
+        border-radius: 0.3rem;
+
+    }
+}
+.main-form label
+{
+    color: white;
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 460px) {
+    .main-form label
+    {
+        font-size: 1.7rem;
+    }
+}
+.main-form input
+{
+    outline: none;
+    border: none;
+    text-align: left;
+    padding: 0.2rem;
+}
+
+@media screen and (min-width: 460px){
+    .main-form input
+    {
+        width: 15rem;
+        border-radius: 0.2rem;
+        border: 0.1rem solid black;
+        font-size: 1.5rem;
+    }
+}
+
+.main-form label,
+.main-form input
+{
+    margin: 0.5rem 0rem 0rem 0rem;
+
+}
+
+@media screen and (min-width: 460px)
+{
+    .main-form lable,
+    .main-form input
+    {
+        margin: 1rem 0rem 0rem 0rem;
+    }
+}
+
+.form-btn
+{
+    margin: 1rem 0rem 0rem 0rem;
+    width: 90%;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 0.2rem;
+    height: 10%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 460px)
+{
+    .form-btn
+    {
+        margin: 1.5rem 0rem 0rem 0rem;
+        width: 40%;
+        font-size: 1.5rem;
+        height: 15%;
+        padding: 0.5rem 0.5rem;
+    
+    }
+}
+
+
+.form-btn:hover
+{
+    background-color: lightgreen;
+}
+
+.form-user__container
+{
+    border: 1px solid black;
+    width: 100%;
+    margin: 0.5rem 0rem 0rem 0rem;
+    padding: 0.2rem;
+}
+
+@media screen and (min-width: 460px) {
+    .form-user__container
+    {
+        background-color: lightgreen;
+    }
+}
+
+.form-user__container p 
+{
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 460px)
+{
+    .form-user__container p 
+    {
+        font-size: 1.5rem ;
+    }
+    
+}

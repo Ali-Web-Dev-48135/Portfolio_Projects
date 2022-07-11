@@ -1,0 +1,24 @@
+
+body
+{
+
+    background-color: white;
+    
+}
+
+
+.main-main__header
+{
+    margin: 4rem 0rem 0rem 0rem;
+    padding: 0.3rem 0.3rem;
+    font-family: cursive;
+
+}
+
+@media screen and (min-width: 460px){
+    .main-main__header
+    {
+        margin: 6rem 0rem 0rem 0rem;
+        font-size: 2rem;
+    }
+}
