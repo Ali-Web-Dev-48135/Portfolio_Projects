@@ -1,0 +1,24 @@
+.issue-form
+{
+   
+   width: 90%;
+   max-width: 70rem;
+   margin: 2rem auto 2rem  auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 0.5rem 0.5rem;
+}
+
+.issue-ul
+{
+    padding: 0.5rem 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    grid-gap: 0.5rem 1rem;
+    width: 90%;
+    
+}
+

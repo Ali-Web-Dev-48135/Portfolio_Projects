@@ -1,0 +1,11 @@
+.footer
+{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+    background-color: darkblue;
+    color: white;
+    min-height: 50px;
+}

@@ -1,0 +1,47 @@
+/* styles for mobile */
+
+.main-nav__drawer-nav
+{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+.main-nav__header-title
+{
+    /* outline: 1px solid white; */
+    padding: 0.5rem 0.5rem;
+
+}
+.main-nav__header-title a
+{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.main-nav__header-nav
+{
+    display: none;
+}
+
+.main-nav__header-nav ul
+{
+    flex-direction: row;
+}
+
+@media screen and (min-width: 768px)
+{
+    .main-nav__header-nav{
+        display: block;
+
+    }
+    
+}
+
+/* styles for tablet */
+
+/* styles for laptop */

@@ -1,0 +1,20 @@
+.main-header
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+    padding: 0rem 0.5rem;
+    z-index: 5;
+
+}
+
+
+
+

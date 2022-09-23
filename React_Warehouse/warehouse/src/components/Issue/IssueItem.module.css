@@ -1,0 +1,40 @@
+.issue-item
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 5px 0;
+    padding: 1rem 0.5rem;
+    outline: 2px solid darkblue;
+    margin: 0.5rem 0rem;
+    width: 100%;
+    max-width: 17rem;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+}
+
+.issue-item__div
+{
+    padding: 0.2rem 0.2rem;
+
+}
+
+.issue-item__div input
+{
+    width: 100%;
+    max-width: 7rem;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 1rem;
+
+}
+
+.issue-item__div input:focus
+{
+    text-align: center;
+}

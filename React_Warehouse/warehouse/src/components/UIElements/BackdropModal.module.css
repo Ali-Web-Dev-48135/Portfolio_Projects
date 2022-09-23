@@ -1,0 +1,21 @@
+.backdrop-modal
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightskyblue;
+    opacity: 70%;
+    z-index: 10;
+}
+
+@keyframes appear {
+    
+    0%
+    {
+        transition: all 200ms;
+        opacity: 1;
+    }
+
+}

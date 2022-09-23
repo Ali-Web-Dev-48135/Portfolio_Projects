@@ -1,0 +1,41 @@
+.side-drawer
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100vh;
+    background-color: darkblue;
+    padding: 0.5rem 0.5rem;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: slide-in-left 200ms ease-in forwards;
+
+}
+
+
+@keyframes slide-in-left {
+
+    0%
+    {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateX(0);
+        transition: all 200ms;
+    }
+}
+
+
+
+
+
+
+
+
+

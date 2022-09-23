@@ -1,0 +1,46 @@
+
+.item-header
+{
+    text-align: center;
+}
+
+.item-list
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    grid-gap: 1rem 0rem;
+    padding: 1rem 0.5rem;
+    overflow: hidden;
+    /* outline: 2px solid black; */
+    width: 80%;
+    margin: 1rem auto;
+    /* max-width: 50rem; */
+}
+
+
+
+.item
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 0.5rem 0rem;
+    outline: 2px solid darkblue;
+    width: 20rem;
+    max-width: 25rem;
+    cursor: pointer;
+
+}
+
+
+@media screen and (min-width: 768px)
+{
+    .item
+    {
+        max-width: 35rem;
+        gap: 0.5rem;
+    }
+}

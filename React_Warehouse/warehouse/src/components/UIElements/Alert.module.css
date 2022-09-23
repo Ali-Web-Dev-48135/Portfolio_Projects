@@ -1,0 +1,32 @@
+.alert-box
+{
+    position: absolute;
+    top: 20%;
+    left:40%;
+    /* right:20%; */
+    width: 100%;
+    max-width: 20rem;
+    min-height: 5rem;
+    border-radius: 8px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.5rem 0.5rem;
+    gap: 1rem;
+    z-index: 20;
+    
+}
+
+.alert-box p
+{
+    font-size: 20px;
+    color: white;
+    padding-top: 1rem;
+}
+
+.alert-btn
+{
+    max-width: 5rem;
+}
