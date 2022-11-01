@@ -1,0 +1,45 @@
+.box {
+  width: 8rem;
+  height: 7rem;
+  background: black;
+  border: 1px solid white;
+  /* border-right:none; */
+  /* border-left: none; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  font-size: 5rem;
+}
+
+.playerIcon {
+  color: yellowgreen;
+}
+
+.computerIcon {
+  color: lightcoral;
+}
+
+.box p
+{
+    animation: fade 1s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.box:hover {
+  background: lightgreen;
+}
+
+/*
+ 
+  */

@@ -1,0 +1,38 @@
+.alert-container {
+  position: absolute;
+  top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px;
+  border-radius: 8px;
+  background: white;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.alert-container p {
+  font-size: 20px;
+  color: darkgreen;
+}
+
+.alert-container button
+{
+    width: 8rem;
+    padding: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: 2px solid brown;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.alert-container button:hover
+{
+    background-color: lightgreen;
+    outline: none;
+}
