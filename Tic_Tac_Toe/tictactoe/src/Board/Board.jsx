@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import Box from "./Box";
 import Alert from "../UIElements/Alert";
-import { loopForTheWin } from "../BoxArray";
+import { checkGameForTie, checkGameForWinner } from "../BoxArray";
 import "./Board.css";
 
 const boxValueObjectData = [
@@ -124,55 +124,12 @@ const Board = (props) => {
   };
 
   useEffect(() => {
-    const x = "X";
-    const o = "O";
-
     if (!winner) {
       let tempArray = uiBoxArray;
-
-      if (
-        (tempArray[0].value === x &&
-          tempArray[1].value === x &&
-          tempArray[2].value === x) ||
-        (tempArray[0].value === o &&
-          tempArray[1].value === o &&
-          tempArray[2].value === o) ||
-        (tempArray[3].value === x &&
-          tempArray[4].value === x &&
-          tempArray[5].value === x) ||
-        (tempArray[3].value === o &&
-          tempArray[4].value === o &&
-          tempArray[5].value === o) ||
-        (tempArray[0].value === x &&
-          tempArray[4].value === x &&
-          tempArray[8].value === x) ||
-        (tempArray[0].value === o &&
-          tempArray[4].value === o &&
-          tempArray[8].value === o) ||
-        (tempArray[3].value === x &&
-          tempArray[4].value === x &&
-          tempArray[5].value === x) ||
-        (tempArray[3].value === o &&
-          tempArray[4].value === o &&
-          tempArray[5].value === o) ||
-        (tempArray[1].value === x &&
-          tempArray[4].value === x &&
-          tempArray[7].value === x) ||
-        (tempArray[1].value === o &&
-          tempArray[4].value === o &&
-          tempArray[7].value === o) ||
-        (tempArray[6].value === x &&
-          tempArray[7].value === x &&
-          tempArray[8].value === x) ||
-        (tempArray[6].value === o &&
-          tempArray[7].value === o &&
-          tempArray[8].value === o)
-      ) {
-        setWinner(true);
-        setGameWinnerText("We have a winner");
-      }
-      if (loopForTheWin(tempArray)) {
-        setTie(true);
+      const { winnerFound } = checkGameForWinner(tempArray);
+      if (winnerFound) {
+        setWinner(winnerFound);
+        setGameWinnerText("We have a winner.");
       }
     }
     return;
