@@ -1,0 +1,17 @@
+.quizoption
+{
+    border-radius: 8px;
+    text-align: center;
+    outline: 1px solid gray;
+    max-width: 30rem;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.quizoption:hover
+{
+    background-color: lightgreen;
+}

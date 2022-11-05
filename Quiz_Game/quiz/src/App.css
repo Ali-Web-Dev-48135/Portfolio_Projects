@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+main
+{
+  margin-top: 10rem;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
