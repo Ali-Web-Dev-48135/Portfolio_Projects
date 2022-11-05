@@ -1,0 +1,2 @@
+This is a basic quiz app. It's basic, but not too basic as the logic is sophisticated and
+the core React.js concepts are used heavily. I built this all on my own from the skills I've gained with working with React and Javascript. I'm proud of this one as I again, put what I know to use. Feel free to download the project folder and run npm install than npm start.
