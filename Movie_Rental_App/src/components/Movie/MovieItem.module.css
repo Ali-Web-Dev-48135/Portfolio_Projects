@@ -1,0 +1,129 @@
+.movie-item-container
+{
+    outline: 3px solid purple;
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    place-items: start;
+    grid-gap: 10px;
+    width: 100%;
+
+}
+/* .movie-item-container:hover
+{
+    background-color: lightgreen;
+    cursor: pointer;
+} */
+
+.movie-image-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.movie-image-container img
+{
+    max-width: 100px;
+    object-fit: cover;
+}
+
+.movie-title-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10rem;
+    align-items: center;
+    gap: 10px;
+    /* outline: 2px solid green; */
+    
+}
+
+.movie-desc
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 25px;
+}
+
+.movie-article
+{
+    outline: 1px solid black;
+    text-align: center;
+    padding: 5px 0;
+}
+.movie-article p:nth-child(1)
+{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+.movie-article p:nth-child(2)
+{
+    color: white;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.movie-fee-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    width: 100%;
+    gap: 5px;
+    padding: 5px 5px;
+}
+.movie-fee-container p
+{
+    color: white;
+}
+
+.rent-btn
+{
+    max-width: 10rem;
+    background: white;
+}
+.rent-btn:hover
+{
+    background: green;
+}
+.movie
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+    
+}
+
+.actions-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+}
+
+.actions-container button
+{
+    width: 10rem;
+    padding: 5px 0;
+    border-radius: 5px;
+    border: none;
+    outline: 2px solid black;
+    color: darkblue;
+    font-size: 15px;
+}
+.actions-container button:hover
+{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}

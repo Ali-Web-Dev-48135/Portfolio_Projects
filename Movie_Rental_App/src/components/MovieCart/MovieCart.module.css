@@ -1,0 +1,15 @@
+.movie-cart
+{
+    list-style: none;
+    width: 50rem;
+    margin: 5rem auto;
+    border: 4px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    flex-direction: column;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
