@@ -101,7 +101,7 @@ const Board = (props) => {
       }
     }
   };
-
+  // Added logic handler.
   const setObjectArrayUI = (id) => {
     let tempArray = [...uiBoxArray];
 
